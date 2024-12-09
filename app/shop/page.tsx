@@ -1,5 +1,4 @@
-"use client"
-import { useState } from "react";
+
 import React from 'react'
 import Image from 'next/image'
 import shopLogo from "../../public/Images/shop logo.png"
@@ -27,7 +26,7 @@ import Link from 'next/link'
 import Footer from '../components/Footer'
 import PagesHeader from "../components/PagesHeader";
 const Shop = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  
   return (
     <>
       <PagesHeader />

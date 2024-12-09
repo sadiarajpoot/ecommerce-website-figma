@@ -1,6 +1,6 @@
-import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
-import Image from 'next/image'
+import Link from 'next/link';
 import AccountLogo from "../../public/Images/accountLogo.png"
 import arrow from "../../public/Images/dashicons_arrow-down-alt2.png"
 import Group29 from "../../public/Images/Group 29.png";

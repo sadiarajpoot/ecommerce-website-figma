@@ -47,7 +47,7 @@ const Page = () => {
             <textarea id='name' className='w-[230px] h-[100px] Poppins border border-slate-500  font-light rounded mt-4 p-4 mb-10' placeholder='Hi! i’d like to ask about'></textarea><br />
           </div>
           <button
-            className="absolute w-[237px] h-[48px] left-[630px] top-[630px] border border-black text-black hover:text-white font-semibold rounded-lg hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-slate-200 transition-all duration-200"
+            className="absolute w-[237px] h-[48px] left-[592px] top-[630px] border border-black text-black hover:text-white font-semibold rounded-lg hover:bg-slate-600 focus:outline-none focus:ring-2 focus:ring-slate-200 transition-all duration-200"
           >
             Submit
           </button>
