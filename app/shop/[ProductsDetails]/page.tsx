@@ -97,7 +97,7 @@ const ProductPage = () => {
           </div>
         </div>
       </div>
-      <div className="absolute w-[605px] h-0 left-[735px] top-[830px] border border-[#D9D9D9]">
+      <div className=" absolute md:w-[605px] w-full h-0 md:left-[735px] left-0 md:top-[830px] top-[1100px] border border-[#D9D9D9]">
         <p className=" mt-[50px]  text-[#9F9F9F] text-[16px] leading-[24px] font-normal Poppins">
           SKU <span className="absolute w-[44px] h-[24px] left-[80px]"> : <span className="absolute w-[44px] h-[24px] left-[30px]">SS001</span></span>
         </p>
@@ -137,87 +137,108 @@ const ProductPage = () => {
           </span>
         </p>
       </div>
-      <div className="absolute w-full h-[0px] left-0 top-[1050px] border-t-2 border-[#D9D9D9]"></div>
-      <div className=" absolute w-full h-[744px] left-0 top-[950px]">
-        <div className="absolute w-[649px] h-[36px] left-[396px] top-[130px] flex justify-around Poppins  text-[24px] text-[#9F9F9F]">
-          <p className="text-black">Description</p>
-          <p>Additional Information</p>
-          <p>Reviews [5]</p>
-        </div>
-        <div className="absolute w-[1026px] h-[174px] left-[207px] top-[210px]  space-y-3 Poppins font-normal text-[16px] leading-[24px] text-justify text-[#9F9F9F]">
-          <p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
-          <p>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
-        </div>
-        <div className="absolute w-[1239px] h-[348px] left-[100px] top-[300px] "></div>
-      </div>
-      <div className="absolute w-full h-[0px] left-0 top-[1800px] border-t-2 border-[#D9D9D9]">
-      </div>
-      <div className="absolute w-[1239px] h-[348px] left-[100px] top-[1400px] flex justify-between" style={{ boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.4)" }}>
-        <Image src={Pink} alt="PinkSofa" />
-        <Image src={Pink2} alt="PinkSofa" />
-      </div>
-      <div className="absolute w-full h-[777px] left-0 top-[1705px] ">
-        <h3 className="absolute w-[309px] h-[54px] left-[564px] top-[190px] text-black Poppins font-medium text-[36px] leading-[54px]">
-          Related Products
-        </h3>
-        <div className="absolute w-[1240px] h-[397px] left-[55px] top-[300px] flex justify-evenly">
-          <Image src={item17} alt="item17"></Image>
-          <Image src={item18} alt="item18"></Image>
-          <Image src={item19} alt="item19"></Image>
-          <Image src={item20} alt="item20"></Image>
-        </div>
-       <span className="absolute w-[115px] h-[49px] Poppins font-medium text-[16px]  p-4 border-b-2 border-black left-[650px] top-[750px]">
-       View More
-       </span>
-      </div>
+      {/* paragraphs */}
+      <div className="md:w-full h-[0px] left-0  mt-[250px] border-t-2 border-[#D9D9D9] overflow-x-hidden"></div>
+
+<div className="w-full sm:w-[744px] h-auto mx-auto sm:top-[950px] top-[1450px] overflow-x-hidden space-y-9 md:p-9 p-3">
+  <div className="w-full sm:w-[649px] h-[36px] mx-auto sm:top-[130px] flex justify-around  Poppins md:text-[24px] space-x-4 text-[14px] text-[#9F9F9F]">
+    <p className="text-black">Description</p>
+    <p>Additional Information</p>
+    <p>Reviews [5]</p>
+  </div>
+
+  <div className="w-full sm:w-[1026px] h-auto mx-auto sm:top-[210px] space-y-3 Poppins font-normal text-[16px] leading-[24px] text-justify text-[#9F9F9F]">
+    <p>Embodying the raw, wayward spirit of rock ‘n’ roll, the Kilburn portable active stereo speaker takes the unmistakable look and sound of Marshall, unplugs the chords, and takes the show on the road.</p>
+    <p>Weighing in under 7 pounds, the Kilburn is a lightweight piece of vintage styled engineering. Setting the bar as one of the loudest speakers in its class, the Kilburn is a compact, stout-hearted hero with a well-balanced audio which boasts a clear midrange and extended highs for a sound that is both articulate and pronounced. The analogue knobs allow you to fine-tune the controls to your personal preferences while the guitar-influenced leather strap enables easy and stylish travel.</p>
+  </div>
+
+  <div className="w-full sm:w-[1239px] h-[348px] mx-auto sm:top-[300px]">
+    {/* This section can be filled with content if needed */}
+  </div>
+</div>
+
+<div className="w-full h-[0px] left-0 top-[1800px] border-t-2 border-[#D9D9D9]"></div>
+
+<div className="w-full sm:w-[1239px] h-[348px] mx-auto mt-[-380px] flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0 sm:space-x-4 shadow-md">
+  <Image src={Pink} alt="PinkSofa" className="w-full sm:w-[48%]" />
+  <Image src={Pink2} alt="PinkSofa" className="w-full sm:w-[48%]" />
+</div>
+
+
+      {/* div second */}
+      <div className="w-full sm:w-[1240px] h-[777px] mx-auto md:mt-[30px] ">
+  <h3 className="absolute left-1/2 md:top-[1850px] top-[2450px] transform -translate-x-1/2 sm:text-center text-black Poppins font-medium md:text-[36px] text-[16px] md:leading-[54px]">
+    Related Products
+  </h3>
+  <div className="md:mt-[150px] mt-[120px] w-full sm:w-[1240px] h-[397px]  flex justify-evenly flex-wrap sm:flex-nowrap gap-4 px-4 ">
+    <Image src={item17} alt="item17" className="w-full sm:w-[23%]" />
+    <Image src={item18} alt="item18" className="w-full sm:w-[23%]" />
+    <Image src={item19} alt="item19" className="w-full sm:w-[23%]" />
+    <Image src={item20} alt="item20" className="w-full sm:w-[23%]" />
+  </div>
+  <span className="absolute w-[115px] h-[49px] Poppins font-medium text-[16px] p-4 border-b-2 border-black left-1/2 transform -translate-x-1/2 md:top-[2350px] top-[3900px] text-center">
+    View More
+  </span>
+</div>
+
       {/* footer */}
-      <div className="absolute w-full h-[555px] left-0 top-[2590px]">
-        <h3 className="absolute  w-[285px] h-auto left-[102.01px] top-[100px] Poppins text-[16px] leading-[24px] font-normal text-[#9F9F9F] md:left-[50px]">
+      <div className="relative w-full bg-white h-auto px-4 py-10 sm:py-8 md:mt-[-200px] mt-[750px]">
+    <div className="flex flex-wrap justify-between items-start max-w-[1240px] mx-auto gap-6">
+      {/* Address Section */}
+      <div className="w-full sm:w-[285px] text-[#9F9F9F] Poppins text-[16px] leading-[24px] font-normal">
+        <p>
           400 University Drive Suite 200 Coral Gables, FL 33134 USA
-        </h3>
-        <div className="absolute w-[710px] h-[312px] left-[523.01px] flex justify-between">
-          <div className="absolute w-[352px] h-[312px]">
-            <div className="absolute w-[140px] h-[242px] left-[212px]">
-              <h3 className="absolute w-[37px] h-[24px] Poppins font-medium text-[16px] leading-[24px] text-[#9F9F9F]">
-                Help
-              </h3>
-              <div className="absolute w-[140px] h-[163px] top-[80px]">
-                <ul className="flex gap-10 flex-col Poppins font-medium text-[16px]">
-                  <li>Payment Options</li>
-                  <li>Returns</li>
-                  <li>Privacy Policies</li>
-                </ul>
-              </div>
-            </div>
-            <div className="absolute w-[68px] h-[312px]">
-              <h3 className="absolute w-[40px] h-[24px] Poppins font-medium text-[16px] leading-[24px] text-[#9F9F9F]">
-                Links
-              </h3>
-              <div className="absolute w-[66px] h-[233px] top-[80px]">
-                <ul className="flex gap-10 flex-col Poppins font-medium text-[16px]">
-                  <Link href="/"><li>Home</li></Link>
-                  <Link href="/shop"><li>Shop</li></Link>
-                  <Link href="/about"><li>About</li></Link>
-                  <Link href="/contact"><li>Contact</li></Link>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div className="absolute w-[286px] h-[101px] left-[423px]">
-            <h3 className="absolute w-[86px] h-[24px] Poppins font-medium text-[16px] leading-[24px] text-[#9F9F9F]">
-              Newsletter
-            </h3>
-            <Image src={Group29} alt="Group29" className="absolute w-[286px] h-[24px] top-[77px]" />
-          </div>
+        </p>
+      </div>
+
+      {/* Links and Help Section */}
+      <div className="flex flex-wrap justify-around w-full sm:w-auto gap-10 sm:gap-16">
+        {/* Help */}
+        <div className="flex flex-col">
+          <h3 className="text-[#9F9F9F] font-medium text-[16px] leading-[24px] mb-9">Help</h3>
+          <ul className="flex flex-col gap-6 Poppins font-medium text-[16px]">
+            <Link href="/"><li>Home</li></Link>
+            <Link href="/shop"><li>Shop</li></Link>
+            <Link href="/about"><li>About</li></Link>
+            <Link href="/contact"><li>Contact</li></Link>
+          </ul>
+        </div>
+
+        {/* Links */}
+        <div className="flex flex-col ">
+          <h3 className="text-[#9F9F9F] font-medium text-[16px] leading-[24px] mb-9">Links</h3>
+          <ul className="flex flex-col gap-6 Poppins font-medium text-[16px]">
+            <li>Payment Options</li>
+            <li>Returns</li>
+            <li>Privacy Policies</li>
+          </ul>
         </div>
       </div>
-      <div className="absolute w-[1240.01px] h-[59px] left-[40px] top-[2950px]">
-        <hr className="absolute w-[1220px] h-[59px] left-[10px] top-[0px]" />
-        <h3 className="mt-9 Poppins font-normal text-[16px] leading-[24px] text-[#000000] sm:left-[10px] sm:top-[4800px]">
-          2022 Meubel House. All rights reserved
-        </h3>
+
+      {/* Newsletter Section */}
+      <div className="w-full sm:w-[286px]">
+        <h3 className="text-[#9F9F9F] font-medium text-[16px] leading-[24px] mb-4">Newsletter</h3>
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          className="flex-1 border-b border-black focus:outline-none focus:border-blue-500 text-[16px] px-1 py-2 placeholder-gray-400"
+        />
+
+        {/* Subscribe Button */}
+        <button className=" py-2 text-black font-medium m-1 transition  border-b border-black">
+          Subscribe
+        </button>
       </div>
-     
+    </div>
+
+    {/* Footer Bottom Line */}
+    <div className="mt-8 border-t border-gray-300 pt-4">
+      <p className="sm:text-center md:px-8 md:text-left text-[#000000] Poppins text-[16px] leading-[24px] font-normal">
+        2022 Meubel House. All rights reserved.
+      </p>
+    </div>
+  </div>
     </div>
 
   );
