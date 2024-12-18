@@ -1,7 +1,5 @@
 import Link from 'next/link';
 import React from 'react';
-import Image from 'next/image';
-import Group29 from "../../public/Images/Group 29.png";
 
 const Footer = () => {
   return (

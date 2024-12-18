@@ -14,7 +14,6 @@ import Group36 from "../../public/Images/Group 36.png"
 import Group35 from "../../public/Images/Group 35.png"
 import Group43 from "../../public/Images/Group 43.png"
 import Link from 'next/link'
-import Group29 from "../../public/Images/Group 29.png"
 import HomeHeader from './HomeHeader';
 import HeroImage from "../../public/Images/Rocket single seater 1.png"
 

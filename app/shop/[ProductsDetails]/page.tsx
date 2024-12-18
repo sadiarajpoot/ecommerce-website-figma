@@ -8,7 +8,7 @@ import item18 from "../../../public/Images/Group 18.png"
 import item19 from "../../../public/Images/item 19.png"
 import item20 from "../../../public/Images/item 20.png"
 import PagesHeader from "@/app/components/PagesHeader";
-import Group29 from "../../../public/Images/Group 29.png";
+
 const ProductPage = () => {
   return (
     <div className="container mx-auto px-4 py-[200px]">
@@ -97,7 +97,7 @@ const ProductPage = () => {
           </div>
         </div>
       </div>
-      <div className=" absolute md:w-[605px] w-full h-0 md:left-[735px] left-0 md:top-[830px] top-[1100px] border border-[#D9D9D9]">
+      <div className=" absolute md:w-[605px] w-full h-0 md:left-[735px] left-0 md:top-[830px] top-[1120px] border border-[#D9D9D9]">
         <p className=" mt-[50px]  text-[#9F9F9F] text-[16px] leading-[24px] font-normal Poppins">
           SKU <span className="absolute w-[44px] h-[24px] left-[80px]"> : <span className="absolute w-[44px] h-[24px] left-[30px]">SS001</span></span>
         </p>
@@ -167,7 +167,7 @@ const ProductPage = () => {
 
       {/* div second */}
       <div className="w-full sm:w-[1240px] h-[777px] mx-auto md:mt-[30px] ">
-  <h3 className="absolute left-1/2 md:top-[1850px] top-[2450px] transform -translate-x-1/2 sm:text-center text-black Poppins font-medium md:text-[36px] text-[16px] md:leading-[54px]">
+  <h3 className="absolute left-1/2 md:top-[1950px] top-[2450px] transform -translate-x-1/2 sm:text-center text-black Poppins font-medium md:text-[36px] text-[16px] md:leading-[54px]">
     Related Products
   </h3>
   <div className="md:mt-[150px] mt-[120px] w-full sm:w-[1240px] h-[397px]  flex justify-evenly flex-wrap sm:flex-nowrap gap-4 px-4 ">
@@ -176,13 +176,13 @@ const ProductPage = () => {
     <Image src={item19} alt="item19" className="w-full sm:w-[23%]" />
     <Image src={item20} alt="item20" className="w-full sm:w-[23%]" />
   </div>
-  <span className="absolute w-[115px] h-[49px] Poppins font-medium text-[16px] p-4 border-b-2 border-black left-1/2 transform -translate-x-1/2 md:top-[2350px] top-[3900px] text-center">
+  <span className="absolute w-[115px] h-[49px] Poppins font-medium text-[16px] p-4 border-b-2 border-black left-1/2 transform -translate-x-1/2 md:top-[2480px] top-[4250px] text-center">
     View More
   </span>
 </div>
 
       {/* footer */}
-      <div className="relative w-full bg-white h-auto px-4 py-10 sm:py-8 md:mt-[-200px] mt-[750px]">
+      <div className="relative w-full bg-white h-auto px-4 py-10 sm:py-8 md:mt-[-200px] mt-[1200px]">
     <div className="flex flex-wrap justify-between items-start max-w-[1240px] mx-auto gap-6">
       {/* Address Section */}
       <div className="w-full sm:w-[285px] text-[#9F9F9F] Poppins text-[16px] leading-[24px] font-normal">
