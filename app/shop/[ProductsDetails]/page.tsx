@@ -44,11 +44,9 @@ const ProductPage = () => {
         <div>
           <h1 className="text-3xl font-semibold mb-2 Poppins mt-[40px]">Asgaard Sofa</h1>
           <p className="text-xl text-gray-700 font-medium mb-4 Poppins">Rs. 250,000.00</p>
-          <div className="flex items-center mb-4">
+         <div className="flex items-center mb-4">
             <div className="text-yellow-500 flex items-center space-x-1">
-              {[...Array(5)].map((_, i) => (
-                <span key={i}>⭐</span>
-              ))}
+              <span>⭐⭐⭐⭐⭐</span>
             </div>
             <span className="text-sm text-gray-500 ml-2 Poppins">5 Customer Reviews</span>
           </div>
@@ -60,14 +58,15 @@ const ProductPage = () => {
           <div className="mb-4">
             <h3 className="text-sm text-gray-700 mb-2 Poppins">Size</h3>
             <div className="flex space-x-2">
-              {["L", "XL", "XS"].map((size) => (
-                <button
-                  key={size}
-                  className="border border-gray-300 px-4 py-2 rounded hover:border-black"
-                >
-                  {size}
-                </button>
-              ))}
+             <button className="border bg-[#FBEBB5] border-gray-300 px-4 py-2 rounded hover:border-black">
+                L
+              </button>
+              <button className="border border-gray-300 px-4 py-2 rounded hover:border-black">
+                XL
+              </button>
+              <button className="border border-gray-300 px-4 py-2 rounded hover:border-black">
+                XS
+              </button>
             </div>
           </div>
 
@@ -75,12 +74,9 @@ const ProductPage = () => {
           <div className="mb-4">
             <h3 className="text-sm text-gray-700 mb-2 Poppins">Color</h3>
             <div className="flex space-x-2">
-              {["black", "blue", "gold"].map((color, index) => (
-                <div
-                  key={index}
-                  className={`w-8 h-8 rounded-full bg-${color} border border-gray-300 cursor-pointer`}
-                ></div>
-              ))}
+              <div className="w-8 h-8 rounded-full bg-[#816DFA] border-gray-300 cursor-pointer"></div>
+              <div className="w-8 h-8 rounded-full bg-black  border-gray-300 cursor-pointer"></div>
+              <div className="w-8 h-8 rounded-full bg-[#CDBA7B]  border-gray-300 cursor-pointer"></div>
             </div>
           </div>
 
@@ -167,9 +163,9 @@ const ProductPage = () => {
 
       {/* div second */}
       <div className="w-full sm:w-[1240px] h-[777px] mx-auto md:mt-[30px] ">
-  <h3 className="absolute left-1/2 md:top-[1950px] top-[2450px] transform -translate-x-1/2 sm:text-center text-black Poppins font-medium md:text-[36px] text-[16px] md:leading-[54px]">
-    Related Products
-  </h3>
+  <h3 className="absolute left-1/2 md:top-[1850px] top-[2370px] transform -translate-x-1/2 sm:text-center text-black Poppins font-medium md:text-[36px] text-[16px] md:leading-[54px]">
+          Related Products
+        </h3>
   <div className="md:mt-[150px] mt-[120px] w-full sm:w-[1240px] h-[397px]  flex justify-evenly flex-wrap sm:flex-nowrap gap-4 px-4 ">
     <Image src={item17} alt="item17" className="w-full sm:w-[23%]" />
     <Image src={item18} alt="item18" className="w-full sm:w-[23%]" />
