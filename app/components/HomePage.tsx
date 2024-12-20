@@ -152,10 +152,10 @@ const HomePage = () => {
               Asgaard sofa
             </h2>
           </div>
-          <div className="absolute w-[255px] h-[64px] left-[1050px] top-[408px] border-[1px] border-[#000000]">
-            <div className="w-[106px] h-[30px] text-black Poppins m-auto pt-4 font-normal text-[20px] leading-[30px]">
+         <div className="absolute w-[255px] h-[64px] left-[1050px] top-[408px] border-[1px] border-[#000000] hover:border-none hover:rounded-sm  hover:bg-slate-500 ">
+            <button className="p-4 pl-16 text-black Poppins m-auto font-normal text-[20px] leading-[30px] hover:text-white">
               Order Now
-            </div>
+            </button>
           </div>
           <div className="absolute w-[983px] h-[799px] left-[0px]">
             <Image src={Asgaard} alt="Asgaard Sofa" layout="fill" objectFit="cover" />
